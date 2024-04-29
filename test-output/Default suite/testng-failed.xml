@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.id.BatchWebAutomation.SecondDay">
+      <class name="com.id.BatchWebAutomation.AlertExample">
         <methods>
           <include name="startBrowser"/>
           <include name="close"/>
-          <include name="OpenUrl"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- com.id.BatchWebAutomation.SecondDay -->
+      </class> <!-- com.id.BatchWebAutomation.AlertExample -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

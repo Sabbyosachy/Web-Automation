@@ -34,6 +34,8 @@ public class BaseDriver {
 	
 	@AfterSuite
 	public void close() {
-		driver.close();
+		driver.close();  //close() oi particular tab ke close kore ar quit() joto gula tab thgakbe shobe close korbe
+         
+	
 	}
 }
